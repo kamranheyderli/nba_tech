@@ -3,7 +3,6 @@ import validationSchema from '../ValidationSchema/ValidationSchema';
 import { Button, Container, TextField, Typography } from '@mui/material';
 import { userCreate } from '../server/FetchData';
 
-// Formik doğrulama şeması
 
 
 const AddUser = () => {
