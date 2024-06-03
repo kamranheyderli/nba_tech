@@ -1,0 +1,35 @@
+.user_card {
+    width: 300px;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: relative;
+}
+
+.delete_icons {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 25px;
+    
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+}
+
+.details button {
+    background-color: blue;
+    color: white;
+    padding: 4px;
+    border: none;
+}
