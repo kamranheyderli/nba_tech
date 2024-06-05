@@ -1,9 +1,15 @@
 .user_card {
     width: 300px;
     height: auto;
-    border: 1px solid black;
     border-radius: 10px;
     position: relative;
+    padding: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    scale: 1;
+}
+
+.user_card:hover {
+    scale: 1.05;
 }
 
 .delete_icons {
@@ -11,15 +17,15 @@
     right: 15px;
     top: 15px;
     font-size: 25px;
-    
 }
 
 .header {
-    width: 100%;
+    width: 95%;
     height: 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 auto;
 }
 
 .details {
@@ -32,4 +38,11 @@
     color: white;
     padding: 4px;
     border: none;
+}
+.header ul li a {
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    font-weight: 800;
+    border-radius: 5px;
 }

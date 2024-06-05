@@ -43,7 +43,7 @@ const UserCard = ({ userData, onDelete, handleGetUserDetail }: any) => {
 
                 <div className={classes.details}>
                     <button onClick={handleUserDetails}>Details</button>
-                    <MdOutlineDeleteOutline onClick={handleDeleteClick} />
+                    <MdOutlineDeleteOutline style={{ color: "red", cursor: "pointer" }} onClick={handleDeleteClick} />
 
                 </div>
             </div>

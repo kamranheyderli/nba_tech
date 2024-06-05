@@ -3,8 +3,8 @@ import classes from "./style.module.css"
 const Header = () => {
     return (
         <header className={classes.header}>
-            <div className="logo">
-                <h1>User</h1>
+            <div className="logo" style={{ color: "white", backgroundColor: "blue", padding: "10px", borderRadius: "5px", width: "100px",display: "flex",justifyContent: "center",alignItems: "center" }}>
+                <Link style={{ color: "white",fontWeight: "bold", }} to={"/"}>User</Link>
             </div>
             <nav>
                 <ul>
